@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+}
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%;
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header{
+    margin: 0;
+}
+.header img{
+    width: 100%;
+    object-fit: cover;
+}
+.thongbao{
+    margin: 0;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+.hello{
+    font-family: 'Mooli', sans-serif;
+}
+.slide{
+    margin-bottom: 20px;
+}
+/* menu của trang */
+.menu{
+    background-color: rgb(49, 46, 46);
+    border-radius: 5px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 0.8vw;
+    color: rgb(251, 251, 251);
+    padding: 0 15px;
+    font-family: 'Mooli', sans-serif;
+}
+.menu ul li a:hover{
+    color: rgb(191, 195, 198);
+}
+/* nội dung trang */
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.footer{
+    background-color: black;
+    font-size: 0.8vw;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    border: 1px solid #CCC;
+    text-align: center;
+}
+.boxconnter{
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxconnter2{
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    min-height: 200px;
+    background-color: #EEE;
+}
+.boxfooter{
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+    object-fit: contain;
+}
+.boxsp{
+    float: left;
+    width: 31%;
+    min-height: 300px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.boxsp .img{
+    min-height: 230px;
+    text-align: center;
+    margin-top: 10px;
+}
+.img img{
+    height: 220px;
+    object-fit: contain;
+    text-align: left;
+}
+.boxsp p{
+    font-size: 1vw;
+}
+.boxsp a{
+    text-decoration: none;
+    color: rgb(35, 32, 32);
+}
+.boxsp a:hover{
+    color: #CCC;
+}
+/* box tài khoản */
+.login{
+    line-height: 150%;
+}
+.login input[type="text"]{
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.login input[type="password"]{
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.login input[type="submid"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #CCC;
+}
+.login input[type="submid"]:hover{
+    background-color: #a49d9d;
+}
+.login li a{
+    color: teal;
+    text-decoration: none;
+}
+.login li a:hover{
+    color:rgb(67, 83, 125) ;
+    text-decoration: underline;
+}
+/* Danh mục sản phẩm */
+.danhmuc ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.danhmuc ul li{
+    padding: 10px 20px;
+    background-color: #EEE;
+    border-bottom: 1px #CCC solid;
+}
+.danhmuc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.danhmuc ul li:hover{
+    background-color: #FFF;
+}
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+/* Danh mục yêu thích */
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.top10 a{
+    color: #666;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.top10 a:hover{
+    color: black;
+}

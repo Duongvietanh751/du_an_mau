@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.header{
+    background-color: rgb(218, 215, 211);
+    height: 70px;
+    text-align: center;
+}
+.header h2{
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(164, 66, 66);
+}
+.menu{
+    height: 35px;
+    background-color: rgb(76, 68, 68);
+
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding-top: 5px;
+    justify-content: center;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 60px;
+}
+.menu ul li a:hover{
+    color:  rgb(225, 128, 128);
+}
+/* admin */
+.title{
+    background-color: rgb(218, 215, 211);
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+.title h1{
+    color: rgb(130, 81, 81);
+    margin-left: 20px;
+}
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 1px solid #CCC;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formcontent input[type="submid"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #ffffff;
+}
+.formcontent input[type="buutton"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #ffffff;
+}
+.formcontent input[type="text"]:hover,
+.formcontent input[type="submid"]:hover,
+.formcontent input[type="buutton"]:hover{
+    background-color: #CCC;
+}
+/* css list sản phẩm */
+.formlist table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.formlist table th{
+    padding: 20px;
+    background-color: #CCC;
+
+}
+/* .formlist table th:nth-child(2){
+    width: 30%;
+    background-color: #CCC;
+
+}
+.formlist table th:nth-child(3){
+    width:40% ;
+    background-color: #CCC;
+
+}
+.formlist table th:nth-child(4){
+    width: 20%;
+    background-color: #CCC;
+
+} */
+.formlist table td{
+    padding: 7px 10px;
+    border: 1px solid #CCC;
+    text-align: center;
+}
